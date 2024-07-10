@@ -13,11 +13,6 @@ pipeline {
             }
         }
 
-        stage('Stage 3') {
-            steps {
-                sh '''echo l'avenir est prometteur'''
-            }
-        }
     }
 
 }
