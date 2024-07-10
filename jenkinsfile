@@ -13,11 +13,6 @@ pipeline {
                 sh '''echo je suis déterminée'''
             }
         }
-        stage('Stage 3') {
-            steps {
-                sh '''echo je suis déterminée'''
-            }
-        }
 
     }
 
