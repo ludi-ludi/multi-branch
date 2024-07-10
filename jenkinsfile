@@ -7,7 +7,13 @@ pipeline {
                 sh '''echo la vie est belle'''
             }
         }
+        
         stage('Stage 2') {
+            steps {
+                sh '''echo je suis déterminée'''
+            }
+        }
+        stage('Stage 3') {
             steps {
                 sh '''echo je suis déterminée'''
             }
