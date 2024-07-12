@@ -2,18 +2,23 @@ pipeline {
     agent any
 
     stages {
-        stage('Stage 1') {
+        stage('Build') {
             steps {
-                sh '''echo la vie est belle'''
+                echo 'Building...'
+                // Add your build steps here
             }
         }
-        
-        stage('Stage 2') {
+        stage('Test') {
             steps {
-                sh '''echo je suis déterminée'''
+                echo 'Testing...'
+                // Add your test steps here
             }
         }
-
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+                // Add your deploy steps here
+            }
+        }
     }
-
 }
