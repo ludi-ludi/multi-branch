@@ -20,5 +20,13 @@ pipeline {
                 // Add your deploy steps here
             }
         }
+        stage('Deploy2') {
+            steps {
+                echo 'Deploying...'
+                // Add your deploy steps here
+            }
+        }
+
+
     }
 }
